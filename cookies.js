@@ -53,7 +53,7 @@ function generateString(size) {
   return 'x'.repeat(size);
 }
 
-function generateBigMultipleCookies(100,4000) {
+function generateBigMultipleCookies(amount,size) {
   for (var i = 0; i < amount; ++i) {
     setCookie('test_'+i, generateString(size));
   }
