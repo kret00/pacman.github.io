@@ -58,3 +58,4 @@ function generateBigMultipleCookies(amount,size) {
     setCookie('test_'+i, generateString(size));
   }
 }
+
