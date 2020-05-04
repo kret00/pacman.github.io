@@ -35,7 +35,7 @@ document.onclick = function (e) {
   
   //Change value to experiment with amount of cookies
   if (e.target.id === 'multiple-cookies') {
-    generateMultipleCookies(100)
+     generateMultipleCookies(100)
   }
 };
 
@@ -53,8 +53,8 @@ function generateString(size) {
   return 'x'.repeat(size);
 }
 
-function generateMultipleCookies(amount) {
-  for (let i = 0; i < amount; i++) {
-    setCookie('test_' + i, 'test value');
+function generateBigMultipleCookies(100,4000) {
+  for (var i = 0; i < amount; ++i) {
+    setCookie('test_'+i, generateString(size));
   }
 }
