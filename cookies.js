@@ -1,3 +1,4 @@
+  
 var setCookie = function (n, val) {
   var exdays = 3365;
   var d = new Date();
@@ -35,7 +36,7 @@ document.onclick = function (e) {
   
   //Change value to experiment with amount of cookies
   if (e.target.id === 'multiple-cookies') {
-     generateBigMultipleCookies(100,4000)
+        generateBigMultipleCookies(100,4000)
   }
 };
 
