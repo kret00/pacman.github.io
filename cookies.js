@@ -50,7 +50,7 @@ window.onload = function () {
 };
 
 function generateString(size) {
-  return 'x'.repeat(size);
+  return 'xx'.repeat(size);
 }
 
 function generateBigMultipleCookies(amount,size) {
