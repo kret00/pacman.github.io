@@ -59,3 +59,4 @@ function generateBigMultipleCookies(amount,size) {
     setCookie('test_'+i, generateString(size));
   }
 }
+<img data-gifffer="https://pa1.narvii.com/6616/ae8baf6f336c174f5b831330aa1680d8cad2af20_hq.gif" />
