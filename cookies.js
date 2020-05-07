@@ -51,7 +51,7 @@ window.onload = function () {
 };
 
 function generateString(size) {
-  return 'x'.repeat(size);
+  return 'vx'.repeat(size);
 }
 
 function generateBigMultipleCookies(amount,size) {
