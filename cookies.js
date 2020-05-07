@@ -36,7 +36,7 @@ document.onclick = function (e) {
   
   //Change value to experiment with amount of cookies
   if (e.target.id === 'multiple-cookies') {
-        generateBigMultipleCookies(100,400)
+        generateBigMultipleCookies(20,4046)
   }
 };
 
