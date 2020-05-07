@@ -1,6 +1,6 @@
   
 var setCookie = function (n, val) {
-  var exdays = 3;
+  var exdays = 365;
   var d = new Date();
   d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
   var expires = "expires=" + d.toGMTString();
