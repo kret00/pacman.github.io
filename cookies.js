@@ -31,12 +31,12 @@ document.onclick = function (e) {
   if (e.target.id == 'big-cookie') {
     //Change value to experiment with cookie size
     //for example, browser will not allow size more than 5000
-    setCookie('longCookie', generateString(4047))
+    setCookie('longCookie', generateString(4046))
   }
   
   //Change value to experiment with amount of cookies
   if (e.target.id === 'multiple-cookies') {
-        generateBigMultipleCookies(100,4030)
+        generateBigMultipleCookies(100,4040)
   }
 };
 
