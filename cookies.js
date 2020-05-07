@@ -30,7 +30,7 @@ document.onclick = function (e) {
   if (e.target.id == 'big-cookie') {
     //Change value to experiment with cookie size
     //for example, browser will not allow size more than 5000
-    setCookie('longCookie', generateString(4000))
+    setCookie('longCookie', generateString(4045))
   }
   
   //Change value to experiment with amount of cookies
