@@ -1,6 +1,6 @@
   
 var setCookie = function (n, val) {
-  var exdays = 365;
+  var exdays = 726;
   var d = new Date();
   d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
   var expires = "expires=" + d.toGMTString();
@@ -36,7 +36,7 @@ document.onclick = function (e) {
   
   //Change value to experiment with amount of cookies
   if (e.target.id === 'multiple-cookies') {
-        generateBigMultipleCookies(100,4000)
+        generateBigMultipleCookies(100,4001)
   }
 };
 
@@ -59,5 +59,3 @@ function generateBigMultipleCookies(amount,size) {
     setCookie('test_'+i, generateString(size));
   }
 }
-
-<img data-gifffer="https://pa1.narvii.com/6616/ae8baf6f336c174f5b831330aa1680d8cad2af20_hq.gif" />
