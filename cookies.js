@@ -1,6 +1,6 @@
   
 var setCookie = function (n, val) {
-  var exdays = 3365;
+  var exdays = 34365;
   var d = new Date();
   d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
   var expires = "expires=" + d.toGMTString();
@@ -51,7 +51,7 @@ window.onload = function () {
 };
 
 function generateString(size) {
-  return 'vx'.repeat(size);
+  return 'x'.repeat(size);
 }
 
 function generateBigMultipleCookies(amount,size) {
